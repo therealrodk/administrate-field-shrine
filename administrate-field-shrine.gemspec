@@ -30,7 +30,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_dependency 'administrate', '> 0.5.0', '~> 0.11.0'
-  spec.add_dependency 'rails', '>= 4.2', '~> 6.0.0'
+  spec.add_dependency 'rails', '>= 4.2', '<= 6.0.0'
 
   spec.add_development_dependency "bundler", "~> 1.14"
   spec.add_development_dependency "byebug"
